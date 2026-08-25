@@ -60,7 +60,7 @@ ingress:
   hosts:
     - host: localhost
       paths:
-        - path: /
+        - path: /${{values.app_name}}
           pathType: Prefix
   tls: []
   # - secretName: chart-example-tls
