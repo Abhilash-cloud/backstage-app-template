@@ -1,7 +1,1 @@
 replicaCount: 2
-image:
-  repository: abhilash10/${{values.app_name}}
-  # This sets the pull policy for images.
-  pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: ${{values.app_name}}-${{values.app_env}}-latest
